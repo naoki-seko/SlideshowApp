@@ -37,10 +37,8 @@ class ViewController: UIViewController {
             dispImageNo = 0
         }
     }
-   
+   //進むボタンを押したときの動作
     @IBAction func nextButton(_ sender: Any) {
-       
-        
         if self.timer == nil{
             if dispImageNo == 3 {
                 dispImageNo = 0
@@ -56,6 +54,7 @@ class ViewController: UIViewController {
         }
         
     }
+    //戻るボタンを押したときの動作
     @IBAction func backButton(_ sender: Any) {
         if self.timer == nil{
             if dispImageNo == 0 {
