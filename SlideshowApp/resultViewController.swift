@@ -9,11 +9,21 @@
 import UIKit
 
 class resultViewController: UIViewController {
-
+    
+    var num: Int = 0
+    
+    @IBOutlet weak var nextView: UIImageView!
+    
+    let photos = ["IMG_9364.JPG","IMG_9365.JPG","IMG_9366.JPG","IMG_9367.JPG"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        //画像を表示する
+        let name = photos[num]
+        let nextImage: UIImage = UIImage(named: name)!
+        nextView.image = nextImage
     }
 
     override func didReceiveMemoryWarning() {

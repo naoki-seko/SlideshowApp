@@ -112,6 +112,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // segueから遷移先のResultViewControllerを取得する
+        let resultViewController:resultViewController = segue.destination as! resultViewController
+        resultViewController.num = dispImageNo
+    }
     //セグエ
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
     }

@@ -83,15 +83,26 @@
                                     <segue destination="ihM-bo-lsw" kind="unwind" unwindAction="unwind:" id="jGY-2c-Prd"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lXP-e2-Vba">
+                                <rect key="frame" x="67" y="92" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XKJ-xL-PQ4">
+                                <rect key="frame" x="67" y="240" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6g7-rc-xbe"/>
                     </view>
+                    <connections>
+                        <outlet property="nextView" destination="lXP-e2-Vba" id="3Ul-PX-rNc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YIy-Wh-6we" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="ihM-bo-lsw" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1458" y="75"/>
+            <point key="canvasLocation" x="1718" y="33"/>
         </scene>
     </scenes>
 </document>
