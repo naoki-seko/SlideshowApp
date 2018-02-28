@@ -18,6 +18,7 @@
 		BF475EAB2044E1CC000E5A22 /* IMG_9366.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF475EA72044E1CC000E5A22 /* IMG_9366.JPG */; };
 		BF475EAC2044E1CC000E5A22 /* IMG_9364.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF475EA82044E1CC000E5A22 /* IMG_9364.JPG */; };
 		BF475EAD2044E1CC000E5A22 /* IMG_9367.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF475EA92044E1CC000E5A22 /* IMG_9367.JPG */; };
+		BF475EAF20466E3F000E5A22 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF475EAE20466E3F000E5A22 /* resultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		BF475EA72044E1CC000E5A22 /* IMG_9366.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_9366.JPG; path = ../../../Downloads/IMG_9366.JPG; sourceTree = "<group>"; };
 		BF475EA82044E1CC000E5A22 /* IMG_9364.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_9364.JPG; path = ../../../Downloads/IMG_9364.JPG; sourceTree = "<group>"; };
 		BF475EA92044E1CC000E5A22 /* IMG_9367.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_9367.JPG; path = ../../../Downloads/IMG_9367.JPG; sourceTree = "<group>"; };
+		BF475EAE20466E3F000E5A22 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				BF475E78204415B5000E5A22 /* AppDelegate.swift */,
 				BF475E7A204415B5000E5A22 /* ViewController.swift */,
+				BF475EAE20466E3F000E5A22 /* resultViewController.swift */,
 				BF475E7C204415B5000E5A22 /* Main.storyboard */,
 				BF475E7F204415B5000E5A22 /* Assets.xcassets */,
 				BF475E81204415B5000E5A22 /* LaunchScreen.storyboard */,
@@ -275,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF475EAF20466E3F000E5A22 /* resultViewController.swift in Sources */,
 				BF475E7B204415B5000E5A22 /* ViewController.swift in Sources */,
 				BF475E79204415B5000E5A22 /* AppDelegate.swift in Sources */,
 			);
