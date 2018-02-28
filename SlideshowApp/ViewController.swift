@@ -116,6 +116,7 @@ class ViewController: UIViewController {
         // segueから遷移先のResultViewControllerを取得する
         let resultViewController:resultViewController = segue.destination as! resultViewController
         resultViewController.num = dispImageNo
+        
     }
     //セグエ
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
