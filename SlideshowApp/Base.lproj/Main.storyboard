@@ -33,8 +33,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XgO-Zo-gNw">
-                                <rect key="frame" x="249" y="377" width="66" height="30"/>
-                                <state key="normal" title="再生/停止"/>
+                                <rect key="frame" x="284" y="377" width="31" height="30"/>
+                                <state key="normal" title="再生"/>
                                 <connections>
                                     <action selector="startStopButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YLv-Eb-mpA"/>
                                 </connections>
@@ -65,7 +65,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="backButton" destination="R2E-4z-ePL" id="aHY-nA-I4E"/>
                         <outlet property="myImageView" destination="chB-EQ-dMj" id="FzF-GV-SnS"/>
+                        <outlet property="nextButton" destination="avy-Ff-etF" id="1wT-hJ-PlO"/>
+                        <outlet property="startStopButton" destination="XgO-Zo-gNw" id="lO5-CB-4VY"/>
                         <segue destination="vqf-Pv-MKY" kind="show" identifier="result" id="eab-oc-wJK"/>
                     </connections>
                 </viewController>
