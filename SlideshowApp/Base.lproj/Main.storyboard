@@ -40,10 +40,10 @@
                                 </connections>
                             </button>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="chB-EQ-dMj">
-                                <rect key="frame" x="68" y="90" width="239" height="128"/>
+                                <rect key="frame" x="68" y="90" width="239" height="150"/>
                                 <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="KRh-18-gxx"/>
+                                    <constraint firstAttribute="height" constant="150" id="LNe-cf-UXp"/>
                                 </constraints>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="7Bf-SQ-2ZK" appends="YES" id="hqY-dx-07d"/>
@@ -52,14 +52,14 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="chB-EQ-dMj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="4Ad-Y3-qgi"/>
-                            <constraint firstItem="chB-EQ-dMj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="4mc-MZ-8Uv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="chB-EQ-dMj" secondAttribute="trailing" constant="68" id="8pm-jH-7G9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="avy-Ff-etF" secondAttribute="bottom" constant="260" id="9EW-fr-E7Y"/>
                             <constraint firstItem="R2E-4z-ePL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E4X-bK-b5J"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="chB-EQ-dMj" secondAttribute="trailing" constant="68" id="F6V-LU-FLx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XgO-Zo-gNw" secondAttribute="trailing" constant="60" id="Kws-Bc-99i"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="R2E-4z-ePL" secondAttribute="bottom" constant="260" id="NnF-rS-efx"/>
+                            <constraint firstItem="chB-EQ-dMj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="UlT-Fw-6TZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XgO-Zo-gNw" secondAttribute="bottom" constant="260" id="WSk-xH-jPg"/>
+                            <constraint firstItem="chB-EQ-dMj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="YZy-9T-CgR"/>
                             <constraint firstItem="avy-Ff-etF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="oIo-Da-hWS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -97,19 +97,19 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lXP-e2-Vba">
-                                <rect key="frame" x="68" y="90" width="239" height="128"/>
+                                <rect key="frame" x="68" y="90" width="239" height="150"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="LPt-Pb-CwN"/>
+                                    <constraint firstAttribute="height" constant="150" id="Rrv-7r-R7u"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="EcS-tb-f5I" firstAttribute="centerX" secondItem="AsN-Mb-rkt" secondAttribute="centerX" id="96M-0q-G5z"/>
+                            <constraint firstItem="6g7-rc-xbe" firstAttribute="trailing" secondItem="lXP-e2-Vba" secondAttribute="trailing" constant="68" id="FHt-lP-qSu"/>
                             <constraint firstItem="6g7-rc-xbe" firstAttribute="bottom" secondItem="EcS-tb-f5I" secondAttribute="bottom" constant="260" id="HL4-3j-fzP"/>
-                            <constraint firstItem="lXP-e2-Vba" firstAttribute="top" secondItem="6g7-rc-xbe" secondAttribute="top" constant="70" id="haj-i5-zwU"/>
-                            <constraint firstItem="lXP-e2-Vba" firstAttribute="leading" secondItem="6g7-rc-xbe" secondAttribute="leading" constant="68" id="qW6-91-fe5"/>
-                            <constraint firstItem="6g7-rc-xbe" firstAttribute="trailing" secondItem="lXP-e2-Vba" secondAttribute="trailing" constant="68" id="sNm-nf-rEI"/>
+                            <constraint firstItem="lXP-e2-Vba" firstAttribute="leading" secondItem="6g7-rc-xbe" secondAttribute="leading" constant="68" id="K4p-BR-RLo"/>
+                            <constraint firstItem="lXP-e2-Vba" firstAttribute="top" secondItem="6g7-rc-xbe" secondAttribute="top" constant="70" id="WCT-Et-bpm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6g7-rc-xbe"/>
                     </view>

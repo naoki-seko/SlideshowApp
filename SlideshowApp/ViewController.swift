@@ -130,6 +130,15 @@ class ViewController: UIViewController {
         // segueから遷移先のResultViewControllerを取得する
         let resultViewController:resultViewController = segue.destination as! resultViewController
         resultViewController.num = dispImageNo
+        self.timer.invalidate()
+        self.timer = nil
+        
+        //各ボタンの表示を元に戻す
+        startStopButton.setTitle("再生", for: .normal)
+        nextButton.setTitleColor(UIColor.blue, for: .normal)
+        backButton.setTitleColor(UIColor.blue, for: .normal)
+        nextButton.isEnabled = true
+        backButton.isEnabled = true
         
     }
     //セグエ

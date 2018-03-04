@@ -19,12 +19,11 @@ class resultViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         
-        // 画像を拡大(1.2倍)
-        // 拡大用(1.2倍)のアフィン行列を生成する.
-        nextView.transform = CGAffineTransform(scaleX: 3, y: 3)
+        
+        
+        // 画像を拡大(2倍)
+        nextView.transform = CGAffineTransform(scaleX: 2, y: 2)
         // Viewに追加する.
         self.view.addSubview(nextView)
 
